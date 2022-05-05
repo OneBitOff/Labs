@@ -1,0 +1,15 @@
+# Webserver pckg install
+package 'httpd' do
+  action :install
+end
+
+# Webserver file config
+file '/var/www/html/index.html' do
+  content "Welcome to my chef created web server... file\n"
+  action :create
+end
+
+# Webserver start
+service 'httpd' do
+  action :start
+end
