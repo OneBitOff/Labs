@@ -1,1 +1,1 @@
-I have the code I just have to remove the sensative stuff.
+Trying to come up with a basic terraform plan that isnt already templatized.
